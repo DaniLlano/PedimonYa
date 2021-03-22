@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #ffe29a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+}
+
+.menu ul li {
+    margin: 10px;
+    font-weight: bold;    
+    padding: 6px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #0032bc;
+}
+
+#cart-cantidad {
+    font-size: 13px;
+    background: red;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -9px;
+}
+
+.numerito {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+}
+
+.numerito-warning {
+    background-color: red;
+}
+
+.primero {
+    background: #ffe29a;
+    display: flex;
+    padding: 70px 0 70px 0;
+}
+
+.content {
+    width: 400px;
+    font-weight: 300;
+    margin: auto;
+}
+
+.content img {
+    width: 400px;
+}
+
+.content p {
+    text-align: start;
+    font-size: 23px;
+}
+
+.content button {
+    background-color: #0032bc;
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.side {
+    margin: auto;
+}
+
+.side img {
+    width: 400px;
+}
+
+.segundo {
+    background-color: #0032bc;
+    padding: 70px 0 70px 0;
+}
+
+.segundo h2 {
+    color: #ffe29a;
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+}
+
+.segundo p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 70px 0px 0px 0px;
+}
+
+.info {
+    width: 250px;
+    text-align: center;
+}
+
+.info img {
+    width: 90px;
+}
+
+#paVender {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0;
+}
+
+.cardContainer h2 {
+    color: #0032bc;
+    text-align: center;
+    margin: 0;
+    font-size: 45px;
+    margin-top: 70px;
+}
+
+.pokemoncitos {
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px #999;
+    color: #0032bc;
+    padding: 30px 0;
+}
+
+.pokemoncitos img {
+    width: 200px;
+}
+
+.pokemoncitos button {
+    background-color: #ffe29a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-weight: 700;
+}
+
+.float {
+    position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#ffe29a;
+	color: black;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+#tusCompritas h3 {
+    text-align: center;
+    color: #0032bc;
+    font-size: 30px;
+}
+
+#tusCompritas {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    width: 50%;
+    margin: 70px auto;
+    background-color: #ffe29a;
+}
+
+#tusCompritas p {
+    font-weight: 700;
+}
+
+#carritoLista { 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+thead td {
+    color: #0032bc;
+    font-weight: 600;
+}
+
+.miniContainer, th, td {
+    border-bottom: 1px solid black;
+}
+
+.deleteBtn{
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+tbody img {
+    width: 30px;
+}
+
+#Comprar {
+    background-color: #0032bc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #0032bc;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerFooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.containerFooter div {
+    width: 350px;
+}
