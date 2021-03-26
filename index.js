@@ -40,6 +40,8 @@ function pintarProductos(array) {
     ).join(" ");
 }
 
+
+
 function pintarProductosEnCarrito() {
     $carritoLista.innerHTML = `<ul>${carrito.map((item) => `
     <li>
@@ -61,6 +63,8 @@ function restarTotal() {
         <p>$${carritoRestaTotal}</p>
         <button id="Comprar">COMPRAR</button>
         `;
+    } else {
+        $precioTotal.innerHTML = `<p id="precioTotal">Nada por aquí...</p>`
     }
 }
 

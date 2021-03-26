@@ -106,7 +106,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 70px 0px 0px 0px;
+    padding-top: 70px;
 }
 
 .info {
@@ -163,7 +163,8 @@ header {
 	color: black;
 	border-radius:50px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 1px 1px #999;
+    border: none;
 }
 
 #tusCompritas h3 {
@@ -226,8 +227,7 @@ header {
 footer {
     background-color: #0032bc;
     color: #fff;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 0;
 }
 
 footer img {
@@ -297,6 +297,34 @@ footer img {
         display: none;
     }
 
+    .segundo {
+        padding: 50px 0;
+    }
+
+    .segundo h2 {
+        font-size: 29px;
+    }
+
+    .segundo p {
+        font-size: 15px;
+    }
+
+    .containerInfo {
+        padding-top: 40px;
+    }
+
+    .info {
+        width: 170px;
+    }
+
+    .info img {
+        width: 60px;
+    }
+
+    .cardContainer h2 {
+        font-size: 29px;
+    }
+
     #paVender {
         justify-content: space-around;
     }
@@ -310,11 +338,116 @@ footer img {
         width: 75px;
     }
 
+    .pokemoncitos button {
+        padding: 5px 0px;
+    }
+
+    #tusCompritas h3 {
+        font-size: 25px;
+    }
+
+    #tusCompritas {
+        width: 80%;
+    }
+
+    #carritoLista ul li p {
+        padding: 0 10px;
+    }
+
+    #segundoP {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     footer img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        width: 250px;
+    }
+
+    .containerFooter div {
+        width: 150px;
+    }
+
+    .containerFooter {
+        padding-top: 30px;
+        justify-content: space-evenly;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    header img {
+        width: 200px;
+    }
+
+    .menu ul {
+        padding-left: 0px;
+    }
+
+    .menu ul li {
+        padding: 6px 10px;
+    }
+
+    .content img {
+        width: 210px;
+    }
+
+    .content p {
+        font-size: 17px;
+    }
+
+    .side img {
+        width: 250px;
+    }
+
+    .segundo h2 {
+        font-size: 40px;
+    }
+
+    .segundo p {
+        font-size: 16px;
+    }
+
+    .info {
+        width: 200px;
+    }
+
+    .cardContainer h2 {
+        font-size: 40px;
+    }
+
+    .pokemoncitos {
+        width: 150px;
+    }
+
+    .pokemoncitos img {
+        width: 130px;
+    }
+
+    .pokemoncitos button {
+        padding: 5px;
+    }
+
+    #tusCompritas {
+        width: 50%;
+    }
+
+    #carritoLista ul li p {
+        padding: 0 20px;
+    }
+
+    footer img {
+        width: 350px;
     }
 
 }
